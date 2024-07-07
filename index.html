@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EpicReads</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .navbar {
+            background-color: black;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .jumbotron
+        {
+            background-image:url('Image-by-Stanislav-Kondratiev-via-Unsplash.webp');
+            background-size: cover;
+            height:800px;
+            color:white;
+        }
+        
+        
+        .section-title {
+            margin: 50px 0 20px;
+            text-align: center;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .contact-section {
+            background-color: black;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .footer-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">EpicReads</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BOOKS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#fiction">Fiction</a>
+                        <a class="dropdown-item" href="#non-fiction">Non-Fiction</a>
+                        <a class="dropdown-item" href="#shortstory">Short Story</a>
+                        <a class="dropdown-item" href="#academic&reference">Academic & Reference</a>
+                        <a class="dropdown-item" href="#poetry">Poetry</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+     <!-- Jumbotron -->
+     <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to EpicReads</h1>
+        <p class="lead">Reading is to the mind what exercise is to the body.</p>
+    </div>
+    
+    <!-- About Us Section -->
+<div id="about-us" class="container mt-5">
+    <h2 class="section-title text-center"><i class="fas fa-info-circle"></i> About Us</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="bookshelf-books-biography-adventure-novel-260nw-2130138842.webp" class="img-fluid" alt="About Us Image">
+        </div>
+        <div class="col-md-6">
+            <p class="lead">Welcome to Epic Reads!</p>
+            <p>We are passionate community dedicated to connecting readers with inspiring and entertaining stories across all genres.Our extensive library features everything from timeless classics to the latest bestsellers, complete with community reviews, author spotlights, and virtual book clubs.</p>
+            <p>whether you're a lifelong reader or just starting your literary journey,EpicReads is your go to destination for discovering new adventures through the pages of a book.</p>
+            <p class="lead">Happy Reading!</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Fiction Book Section -->
+    <div id="fiction" class="container mt-5">
+        <h2 class="section-title"><i class="fas fa-book"></i> Fiction</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images.jpg" class="card-img-top" alt="To Kill a Mocking Bird">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 327.69</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="327.69">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="327.69">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (1).jpg" class="card-img-top" alt="Pride and Prejudice">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 212</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="212">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="212">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="The_Great_Gatsby_Cover_1925_Retouched.jpg" class="card-img-top" alt="The Great Gatsby ">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 119</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="119">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="119">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (2).jpg" class="card-img-top" alt="A Tale of Two Cities">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 99 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="99">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="99">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (3).jpg" class="card-img-top" alt="1984">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 97</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="97">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="97">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (4).jpg" class="card-img-top" alt="Don Quixote">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction Book</h5>
+                        <p class="card-text">Escape into a great story-grab a fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 167</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="167">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="167">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Non-Fiction Book Section -->
+    <div id="non-fiction" class="container mt-5">
+        <h2 class="section-title"><i class="fas fa-book"></i> Non-Fiction</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping.webp" class="card-img-top" alt="The Story Of TATA">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 413</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="413">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="413">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping (1).webp" class="card-img-top" alt="The Dhoni To Tough">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 207</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="207">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="207">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping (2).webp" class="card-img-top" alt="Unfinished-A Memoir">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 413</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="413">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="413">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping (3).webp" class="card-img-top" alt="Here,There and Everywhere">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 183</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="183">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="183">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping (4).webp" class="card-img-top" alt="Long Walk To Freedom">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 517</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="517">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="517">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shopping (5).webp" class="card-img-top" alt="The Book Of Life">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction Book</h5>
+                        <p class="card-text">Discover the truth-grab a non-fiction book today!</p>
+                        <p class="card-text"><strong>Price: &#8377 285</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="285">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="285">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Short Story Section -->
+    <div id="shortstory" class="container mt-5">
+        <h2 class="section-title"><i class="fas fa-book"></i>Short Story</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="download5.jpg" class="card-img-top" alt="The Lottery">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 370</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="370">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="370">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="the-yellow-wallpaper-155.jpg" class="card-img-top" alt="The Yellow Wallpaper">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 100</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="100">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="100">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shortstory.jpg" class="card-img-top" alt="Dear Life">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 1245</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="1245">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="1245">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="content.jpg" class="card-img-top" alt="Tenth of December">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 317</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="317">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="317">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="content (1).jpg" class="card-img-top" alt="Snow White">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 3285</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="3285">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="3285">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="content (2).jpg" class="card-img-top" alt="The Things They Carried">
+                    <div class="card-body">
+                        <h5 class="card-title">Short Story</h5>
+                        <p class="card-text">Escape into a world of wonder-grab a short story today!</p>
+                        <p class="card-text"><strong>Price: &#8377 1258</strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="1258">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="1258">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Academics and Reference Books Section -->
+    <div id="academic&reference" class="container mt-5">
+        <h2 class="section-title"><i class="fas fa-book"></i> Academics & References</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="maths.webp" class="card-img-top" alt="Mathematics">
+                    <div class="card-body">
+                        <h5 class="card-title">Academics</h5>
+                        <p class="card-text">Discover and excel with our essential academic and reference books.Start your learning journey today!</p>
+                        <p class="card-text"><strong>Price: &#8377 796 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="796">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="796">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="socialscience.webp" class="card-img-top" alt="Social Science">
+                    <div class="card-body">
+                        <h5 class="card-title">Academics</h5>
+                        <p class="card-text">Discover and excel with our essential academic and reference books.Start your learning journey today!</p>
+                        <p class="card-text"><strong>Price: &#8377 529 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="529">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="529">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="cbseexam.jpg" class="card-img-top" alt="Practice Paper">
+                    <div class="card-body">
+                        <h5 class="card-title">Academics</h5>
+                        <p class="card-text">Discover and excel with our essential academic and reference books.Start your learning journey today!</p>
+                        <p class="card-text"><strong>Price: &#8377 1635 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="1635">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="1635">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dictionary.jpg" class="card-img-top" alt="Dictionary">
+                    <div class="card-body">
+                        <h5 class="card-title">References</h5>
+                        <p class="card-text">Discover and excel with our essential academic and reference books.Start your learning journey today!</p>
+                        <p class="card-text"><strong>Price: &#8377 948 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="948">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="948">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="art.webp" class="card-img-top" alt="Encyclopedia">
+                    <div class="card-body">
+                        <h5 class="card-title">References</h5>
+                        <p class="card-text">Discover and excel with our essential academic and reference books.Start your learning journey today!</p>
+                        <p class="card-text"><strong>Price: &#8377 680 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="680">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="680">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Poetry Section -->
+    <div id="poetry" class="container mt-5">
+        <h2 class="section-title"><i class="fas fa-book"></i> Poetry</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="leavesofgrass.webp" class="card-img-top" alt="Leaves of Grass">
+                    <div class="card-body">
+                        <h5 class="card-title">Poetry</h5>
+                        <p class="card-text">Discover poetry's chilling impact.Let each verse resonate.</p>
+                        <p class="card-text"><strong>Price: &#8377 249 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="249">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="249">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="poetry.webp" class="card-img-top" alt="The WasteLand">
+                    <div class="card-body">
+                        <h5 class="card-title">Poetry</h5>
+                        <p class="card-text">Discover poetry's chilling impact.Let each verse resonate.</p>
+                        <p class="card-text"><strong>Price: &#8377 149 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="149">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="149">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="thesunandherflowers.jpg" class="card-img-top" alt="The Sun and her Flowers">
+                    <div class="card-body">Poetry</h5>
+                        <p class="card-text">Discover poetry's chilling impact.Let each verse resonate.</p>
+                        <p class="card-text"><strong>Price: &#8377 300 </strong></p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary add-to-cart" data-price="300">Add to Cart</button>
+                        <button type="button" class="btn btn-success buy-now" data-price="300">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    
+<div id="contact" class="contact-section mt-5">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-envelope"></i> Contact Us</h2>
+        <p>For any inquiries, please contact us at:</p>
+        <p><i class="fas fa-phone"></i> Phone: +1 276 667 440</p>
+        <p><i class="fas fa-envelope"></i> Email: support@epicreads.com</p>
+        <p>Follow us on social media:</p>
+        <p>
+            <a href="https://facebook.com/epicreads" class="footer-links"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="https://instagram.com/epicreads" class="footer-links"><i class="fab fa-instagram"></i> Instagram</a>
+        </p>
+
+        <!-- Feedback Form -->
+        <div id="feedback-form">
+            <h3>Give us your feedback!</h3>
+            <form id="feedbackForm">
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit" id="submitFeedback">Submit</button>
+            </form>
+            <p id="feedbackSuccessMessage" style="display:none; color:green;">Feedback submitted successfully!</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer Links -->
+    <div class="container text-center mt-5">
+        <p class="footer-links">
+            <a href="#">Home</a>
+            <a href="#fiction">Fiction</a>
+            <a href="#non-fiction">Non-Fiction</a>
+            <a href="#children'sbook">Children's Book</a>
+            <a href="#academic&reference">Academic & Reference</a>
+            <a href="#poetry">Poetry </a>
+            <a href="#contact">Contact</a>
+        </p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+         // Add to Cart button click event listener
+         $(".add-to-cart").click(function() {
+            var price = parseFloat($(this).data("price"));
+            alert("Added to cart! Total: ₹" + price.toFixed(2));
+        });
+
+        // Buy Now button click event listener
+        $(".buy-now").click(function() {
+            var price = parseFloat($(this).data("price"));
+            alert("Proceeding to Buy! Price: ₹" + price.toFixed(2));
+        });
+        document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submit action
+
+        // Simulate submitting data (you can replace this with actual AJAX call)
+        setTimeout(function() {
+            // Show success message
+            document.getElementById("feedbackSuccessMessage").style.display = "block";
+
+            // Clear the form
+            document.getElementById("feedbackForm").reset();
+
+            // Hide success message after 3 seconds
+            setTimeout(function() {
+                document.getElementById("feedbackSuccessMessage").style.display = "none";
+            }, 3000);
+        }, 1000); // Simulated delay for demo purposes
+    });
+
+    </script>
+    
+</body>
+</html>
